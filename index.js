@@ -1,7 +1,7 @@
 const { GraphQLClient, gql } = require('graphql-request')
 
 const graphQLClient = new GraphQLClient(
-  'https://github-stars-api.herokuapp.com/',
+  'https://api-stars.github.com/',
   {
     headers: {
       authorization: `Bearer ${process.env.TOKEN}`
